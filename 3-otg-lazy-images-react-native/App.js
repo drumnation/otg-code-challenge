@@ -12,12 +12,17 @@ import Modal from "react-native-modal";
 export default class App extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { data: null, modalVisible: false, itemTitle: "Default Title", itemUrl: "http://placehold.it/150/92c952" };
+    this.state = { 
+      data: null, 
+      modalVisible: false, 
+      itemTitle: "Default Title", 
+      itemUrl: "http://placehold.it/150/92c952" 
+    };
   }
 
   componentDidMount = () => this.getDataFromApi();
 
-  onPress = item => this.setState({modalVisible: true, itemTitle: item.title, itemUrl: item.url});
+  onPress = item => this.setState({ modalVisible: true, itemTitle: item.title, itemUrl: item.url });
 
   getDataFromApi = async () => {
     const res = await fetch("https://jsonplaceholder.typicode.com/photos");
