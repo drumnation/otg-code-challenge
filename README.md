@@ -68,5 +68,5 @@ RUBY
 * Display thumbnail versions of the images in the returned JSON. Images should be loaded only if user scrolled to display the image.
 * If a thumbnail is tapped it should switch to another view to show the full size image.
 * Cache all of the images locally based on their ID.
-
+![](5.png)
 ![](reactjs-demo.gif)
