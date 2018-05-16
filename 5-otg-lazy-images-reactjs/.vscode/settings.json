@@ -1,0 +1,13 @@
+{
+  "npm.enableScriptExplorer": true,
+  "togglequotes.chars": ["\"", "`"],
+  "editor.detectIndentation": true,
+  // "editor.formatOnSave": true,
+  "editor.insertSpaces": true,
+  "editor.tabSize": 2,
+  "eslint.autoFixOnSave": true,
+  "javascript.format.enable": false,
+  "javascript.validate.enable": false,
+  "prettier.eslintIntegration": true,
+  "java.configuration.updateBuildConfiguration": "automatic"
+}

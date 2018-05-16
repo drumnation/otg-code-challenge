@@ -1,0 +1,18 @@
+{
+  "parser": "babel-eslint",
+  "plugins": ["react"],
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "globals": {
+    "exports": false
+  },
+  "rules": {
+    "strict": 0,
+    "no-compare-neg-zero": 0
+  },
+  "extends": ["eslint:recommended", "plugin:react/recommended"]
+}
