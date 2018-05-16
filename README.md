@@ -62,3 +62,11 @@ Expected Output:
 RUBY
 
 ![](4.png)
+
+# 5. Create a web interface with modern javascript framework or libaray( REACTJS ) that does the following:
+* Make a request to: https://jsonplaceholder.typicode.com/photos
+* Display thumbnail versions of the images in the returned JSON. Images should be loaded only if user scrolled to display the image.
+* If a thumbnail is tapped it should switch to another view to show the full size image.
+* Cache all of the images locally based on their ID.
+
+![](reactjs-demo.gif)
